@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add index.html yes.html bunny.jpg celebration.jpg)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Valentine''s Day website with interactive proposal\n\nCreate a romantic website for Valentine''s Day proposal with two-page flow:\nmain page with yes/no buttons and celebration page for positive response.\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push -u origin main)",
+      "Bash(git add index.html yes.html)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nChange font to Comic Sans MS for a more playful look\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)"
+    ]
+  }
+}
