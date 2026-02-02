@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YESSSS! 🎉</title>
+    <style>
+        body {
+            background-color: #FFB6C1;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            animation: celebration 2s ease-in-out infinite;
+        }
+
+        @keyframes celebration {
+            0%, 100% { background-color: #FFB6C1; }
+            25% { background-color: #FF69B4; }
+            50% { background-color: #FFB6C1; }
+            75% { background-color: #FF1493; }
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 4em;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            animation: bounce 1s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .celebration-container {
+            text-align: center;
+        }
+
+        .celebration-container img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .hearts {
+            font-size: 3em;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <h1>YES! YES! YESSSSSS! 🎉</h1>
+
+    <div class="celebration-container">
+        <img src="celebration.jpg" alt="Celebration">
+        <div class="hearts">💕 💖 💗 💓 💝</div>
+    </div>
+</body>
+</html>
